@@ -1,0 +1,283 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script>
+        const tooltips=document.queryselector('.tt')
+        tooltips.foreach(t =>{
+            newbootstrap.Tooltip(t)
+        })
+    </script>
+        <link rel="icon" href="lic.jpeg" type="image/png"> 
+    <title>LIFE INSURANCE OF CORPORATON</title>
+    <style>
+        section{
+            background-color:cornsilk;
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+    <!--NAVBAR-->
+<nav class="navbar navbar-expand-md navbar-light text-light  bg-danger">
+    <div class="container-xxl">
+       
+            <i class="bi bi-incognito" ></i><br>
+            <p class="fw-bold text-light">Life Insurance Of Corporation</p>
+    
+        <!--toggole button for mobile view-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle-navigation"><span class="navbar-toggler-icon"></span></button>
+    <!--navbar links-->
+    <div class="collapse navbar-collapse justify-content-end align-center" 
+    id="main-nav">
+        <ul class="navbar-nav">
+            <li class="nav-item" style="color:aliceblue">
+            <a  class="nav-link"  href="#about">About the Agent</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#plans" >Plans</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#register" class="nav-link">register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">contact</a>
+                        </li>
+                    <li class="nav-item d-md-none">
+                        <a href="#plans" class="nav-link ">Polices</a>
+                        </li>
+                        <li class="nav-item ms-2 d-none d-md-inline">
+                            <a href="#premium" class="btn btn-secondary">Make plan</a>
+                            </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+    <!--MAIN IMAGE AND INTRO TEXT-->
+    <SECTION id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center g-0">
+                <div class="col-md-5 text-center mr-6 text-md-small">
+                    <h1 class="display-2">LIC</h1>
+                    <h1 class="display-5 text-muted">Make Insurance Live Freely</h1>
+                    <p class="lead my-4 text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#price" class="btn btn-secondary btn-lg">Buy Now</a>
+                    <a href="#sidebar" class="d-block-mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">explore more palns</a>
+                </div>
+               <div class="col-md-4 text-center d-none d-md-block">
+                    <img class="img-fluid ml-3" src="lic.jpeg"  alt="lic">
+                </div></span>
+               
+            </div>
+        </div>
+    </SECTION>
+    <!--pages in web page-->
+    <section id="about">
+        <div class="container-lg ">
+            <div class="text-center">
+                <h2>ABOUT THE AGENT</h2>
+            </div>
+        <div class="row my-5 align-items-center justify-content-center">
+        <div class="col-10 col-lg-4">
+            <div class="card border-secondary border-3">
+                <div class="card-body text-center">
+                    <img class="img-fluid" src="WhatsApp Image 2024-04-23 at 14.18.27_c4a95029.jpg"  alt="">
+                    <div class="card-title PT-3">PENTAKOTI VEKATRAO</div>
+                    <p class="lead-text-muted">ZM Club Member</p>
+                    <div class="lead card-subtitle">since 2002</div>
+                    <div class="card-text text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Blanditiis beatae alias expedita, repellendus aut nulla odio Lorem ipsum dolor sit, am
+                        et consectetur adipisicing elit. Tempore, modi.</div>
+                        <a href="#" class="btn btn-outline-primary mt-3">Contact Him</a>
+                </div>
+            </div>
+            <!--accordion-->
+            <div class="accordion" id="aboutme">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading1"><button class="accordion-button" type="button" data-bs-toggle="collapse"
+                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">MY detaials</button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse"  data-bs-parent="#aboutme">
+                        <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque cumque praesentium ipsum, ab minima ea maiores debitis optio. Omnis commodi quam deserunt? Tenetur
+                                 incidunt eaque veritatis ipsam nihil error magni?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--tabs-->
+
+<div class="container my-5">
+    <nav>
+       <div class="nav nav-tabs" id="navtab" role="tablist">
+        <button class="nav-link active" id="name" data-bs-toggle="tab"
+         data-bs-target="#home" role="tab" type="button" aria-controls="name" aria-selected="true">NAME</button>
+         <button class="nav-link" id="name" data-bs-toggle="tab"
+         data-bs-target="#home" role="tab" type="button" aria-controls="age " aria-selected="false">AGE </button>
+         <button class="nav-linK" id="name" data-bs-toggle="tab"
+         data-bs-target="#home" role="tab" type="button" aria-controls="qualify" aria-selected="false">QULIFICATION</button>
+       </div> 
+    </nav>
+    <DIV class="tab-content" id="nav-tabcontent">
+        <div class="tab-pane fade show active p-3" id="name" role="tabpanel1" aria-labelledby="name">
+            <h2 class="text-muted">SATHWIK PENTAKOTI</h2>
+        </div>
+        <div class="tab-pane fade p-3" id="age" role="tabpanel1" aria-labelledby="age">
+            <h2 class="text-muted">SWEET TWENTY</h2></div>
+            <div class="tab-pane fade p-3" id="qualify" role="tabpanel2" aria-labelledby="qualify">
+                <h2 class="text-muted">GRADUATED IN COMPUTER SCIENCE AND ENGINEERING</h2></div>
+            </div>
+        </div>
+    </DIV>
+
+</div>
+<section id="plans">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2>POLICY PLANS</h2>
+            <p class="lead-text-muted">CHOOSE YOU PLAN</p>
+        </div>
+    <div class="row my-5 align-items-center justify-content-center">
+    <div class="col-8 col-lg-4">
+        <div class="card border-secondary border-3">
+            <div class="card-body text-center">
+                <div class="card-title">JEEVAN LAB</div>
+                <div class="lead card-subtitle">15 year paln</div>
+                <div class="card-text text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Blanditiis beatae alias expedita, repellendus aut nulla odio.</div>
+                    <a href="#" class="btn btn-outline-primary mt-3">Make paln</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-9 col-lg-4 mt-3" >
+        <div class="card border-secondary border-3">
+            <div class="card-body text-center">
+                <div class="card-header text-muted">popular one</div>
+                <div class="card-title">JEEVAN ANANAND</div>
+                <div class="lead card-subtitle">15 year paln</div>
+                <div class="card-text text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Blanditiis beatae alias expedita, repellendus aut nulla odio.</div>
+                    <a href="#" class="btn btn-outline-primary mt-3">Make paln</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-9 col-lg-4 mt-3">
+        <div class="card border-secondary border-3 ">
+            <div class="card-body text-center">
+                <div class="card-title ">JEEVAN UMANG</div>
+                <div class="lead card-subtitle">15 year plan yearly bonous plan</div>
+                <div class="card-text text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Blanditiis beatae alias expedita, repellendus aut nulla odio.</div>
+                    <a href="#" class="btn btn-outline-primary mt-3">Make paln</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2>GET IN TOUCH</h2>
+            <P class="LEAD">Questions to ask fill out the form to direct contact..</P>
+        </div>
+    <form>
+ <label for="name" class="form-label">Name:</label>
+ <div class="mb-2 input-group"> 
+    <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+    <input type="text" class="form-control" id="name" placeholder="sathwik">
+</div><span class="tt" data-bs-palcement="bottom" title="enter you email first" >
+    <label for="Email" class="form-label mt-3">Email:</label>
+    <div class="mb-2 input-group">
+        <span class="input-group-text mb-4"><i class="bi bi-envelope-fill"></i></span>
+        <input type="email" class="form-control mb-4" id="email" placeholder="srk@gmail.com">
+    </div>
+</span>
+
+    <label for="subject" class="form-label">What is your question about::</label>
+    <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-chat-right-dots-fill"></i></span>
+    <select id="subject" class="form-select">
+        <option value="pricing" selected>select one</option>
+        <option value="pricing">pricing query</option>
+        <option value="pricing">plan query</option>
+        <option value="pricing">renual query</option>
+        <option value="pricing">other query</option>
+    </select>
+</div>
+    <div class="form-floating mt-4 mb-4">
+    <label for="query" class="form-label">Any Doubts...</label>
+    <textarea class="form-control" id="query "style="height:140px"></textarea></div>
+    <div class="mb-4 text-center">
+        <button type="submit" class="btn btn-secondary">submit</button>
+    </div>
+    </form>
+   
+</section>
+<!--modal-->
+<section id="register" class="bg-light">
+<div class="container">
+    <div class="text-center">
+        <h2>stay in the loop</h2>
+        <p class="lead">get the latest update that they happen.....</p>
+
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ducimus porro quod pariatur eos rem architecto mollitia tenetur quidem deleniti.</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                register for more updates
+            </button>
+        </div>
+    </div>
+</div>
+    </section>
+    <div class="modal fade" id="reg-modal" tabindex="-1"  aria-labelledby="modal-title" aria-hidden="true" >
+       <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Get the latest updates</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+            </div>
+            <div class="modal-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur do
+                lor totam possimus ducimus fugiat tempore numquam a
+                utem. Ipsa necessitatibus voluptate ea deleniti at, i
+                n ipsam fuga rem. Sapiente, similique numquam!</div>
+                <label for="modal-email" class="form-label">your email address::</label>
+                <input type="email" class="form-control" id="modal-email" placeholder="eg:shocky@gamil.com">
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary">submit</button>
+        </div>
+       </div> 
+    </div>
+</div>
+<!--offcanvas-->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="sidebar-label" >my other books</h5>
+        <button class="btn-close" data-bs-dismiss="offcanvas" aria-label="close"></button> </div>
+        <div class="offcanvas-body">
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
+                 elit. Eum quisquam ducimus, mo
+                lestias voluptates aperiam cumque earum provident reprehenderit maxime, ve
+                lit asperiores. Rerum atque blanditiis reiciendis enim iusto, voluptate maxime excepturi perspiciatis. Error voluptatum optio temporibus necessitatibus eius, quis in reiciendis!</p>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="booldropdown" data-bs-toggle="dropdown">choose your policy tittle </button>
+                    <ul class="dropdown-menu" aria-labelledby="bookdropdown">
+                        <li><a href="#plan" class="dropdown-item">jeevanlaab</a></li>
+                        <li><a href="plan" class="dropdown-item">jeevanaanand</a></li>
+                        <li><a href="plan" class="dropdown-item">jeevanrakshsa</a></li>
+                    </ul>
+                </div>
+            </div>
+        <!--dropdown-->
+       
+   
+</div>
+</body>
+</html>
